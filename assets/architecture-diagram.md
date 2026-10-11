@@ -1,6 +1,6 @@
 # Enterprise IT Infrastructure & Data Flow Architecture
 
-Below is the high-level architecture diagram illustrating user authentication, corporate VPN gateway routing, and internal server access.
+Below is a high-level architecture diagram illustrating user authentication, corporate VPN gateway routing, and internal server access.
 
 ```mermaid
 graph TD
