@@ -8,8 +8,8 @@ graph TD
     Client -->|2. Encrypted Tunnel| VPN[Enterprise VPN Gateway]
 
     subgraph Corporate Secure Enclave
-        VPN -->|3. Route Internal Traffic| DC[Domain Controller / DNS-DHCP Server]
-        DC -->|4. Validate RBAC & Policy| HRIS[HRIS & Provisioning DB]
+        VPN -->|3. Route Internal Traffic| DC[Domain Controller]
+        DC -->|4. Validate RBAC & Policy| HRIS[Internal HRIS / Core Apps]
     end
 
     style Client fill:#f9f,stroke:#333,stroke-width:2px
