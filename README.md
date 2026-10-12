@@ -4,30 +4,38 @@
   <img src="https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
   <img src="https://img.shields.io/badge/PowerShell-7%2B-0078D4?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
   <img src="https://img.shields.io/badge/OS-Windows%2011%20%7C%20iPadOS-0078D4?style=for-the-badge&logo=windows11&logoColor=white" alt="Platform" />
+  <img src="https://img.shields.io/badge/Docs-Technical%20Library-success?style=for-the-badge&logo=markdown&logoColor=white" alt="Technical Library" />
 </p>
 
-Welcome to my **Docs-as-Code** technical portfolio! This repository showcases automated system administration scripts, continuous integration workflows, and enterprise-grade technical documentation.
+Welcome to my **Docs-as-Code** enterprise portfolio repository. This page acts as an interactive portal to every automation script, CI/CD pipeline, and documentation asset stored in this repository.
+
+> 📚 **Technical Library Hub:** For a complete breakdown of documentation governance and cataloging, explore [`docs/index.md`](./docs/index.md).
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## 🗂️ Complete Directory & File Manifest
 
-| Component | Technology | Implementation Details |
-| :--- | :--- | :--- |
-| **Version Control** | Git & GitHub | SSH-authenticated repository management |
-| **Automation & CI/CD** | GitHub Actions | Automated static code analysis via `PSScriptAnalyzer` |
-| **Scripting & Tooling** | PowerShell 7+ | Diagnostic scripting with structured error handling |
-| **Environment** | Hybrid Workflow | Windows 11 local CLI & iPadOS remote web management |
+Explore all active project files directly through the table below:
+
+| Directory / File | Type | Purpose | Direct Access Link | Status |
+| :--- | :--- | :--- | :--- | :---: |
+| **`.github/workflows/powershell-ci.yml`** | CI/CD | Automated `PSScriptAnalyzer` linting pipeline | [View Workflow](./.github/workflows/powershell-ci.yml) | `🟢 Active` |
+| **`scripts/System-Health-Check.ps1`** | Script | Real-time PowerShell system diagnostic tool | [View Script](./scripts/System-Health-Check.ps1) | `🟢 Active` |
+| **`docs/index.md`** | Catalog | Master Technical Library index & asset registry | [View Index](./docs/index.md) | `🟢 Active` |
+| **`README.md`** | Docs | Primary portfolio entry point & architecture overview | [View File](./README.md) | `🟢 Active` |
 
 ---
 
-## 📂 Directory Structure
+## 🛠️ Architecture & Quality Assurance
 
 ```text
-tech-docs-portfolio/
-├── .github/
-│   └── workflows/
-│       └── powershell-ci.yml   # CI/CD pipeline for script linting & validation
-├── scripts/
-│   └── System-Health-Check.ps1 # Real-time telemetry & diagnostic script
-└── README.md                   # Enterprise portfolio documentation
+  [ Developer Commit ]
+           │
+           ▼
+  [ GitHub Actions Runner ]
+           │
+           ▼
+  [ PSScriptAnalyzer Linting ] ────► (Pass / Fail Status Badge)
+           │
+           ▼
+  [ Verified Portfolio Code ]
