@@ -1,0 +1,24 @@
+name: PowerShell Script CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Run PSScriptAnalyzer (Linter)
+        shell: pwsh
+        run: |
+          Install-Module -Name PSScriptAnalyzer -Force -Scope CurrentUser
+          $results = Invoke-ScriptAnalyzer -Path ./scripts -Recurse
+          $results | Format-Table
+          if ($results.Severity -eq 'Error') {
+            exit 1
+          }
