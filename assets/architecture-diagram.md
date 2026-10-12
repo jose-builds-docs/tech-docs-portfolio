@@ -1,7 +1,3 @@
-# Enterprise IT Infrastructure & Data Flow Architecture
-
-Below is the high-level architecture diagram illustrating user authentication, corporate VPN gateway routing, and internal server access.
-
 ```mermaid
 graph TD
     Client[Remote Worker / iPad / Laptop] -->|1. HTTPS / MFA Auth| Entra[Microsoft Entra ID / Identity]
