@@ -1,29 +1,33 @@
-# Technical Documentation & Automation Portfolio
+# 🚀 Technical Documentation & Automation Portfolio
 
-![PowerShell CI Status](https://github.com/jose-builds-docs/tech-docs-portfolio/actions/workflows/powershell-ci.yml/badge.svg)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20iPadOS-blue)
-![Language](https://img.shields.io/badge/Language-PowerShell-blue)
+<p align="left">
+  <img src="https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/PowerShell-7%2B-0078D4?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/OS-Windows%2011%20%7C%20iPadOS-0078D4?style=for-the-badge&logo=windows11&logoColor=white" alt="Platform" />
+</p>
 
-Welcome to my **Docs-as-Code** technical portfolio. This repository showcases automated system administration scripts, continuous integration workflows, and production-grade technical documentation.
+Welcome to my **Docs-as-Code** technical portfolio! This repository showcases automated system administration scripts, continuous integration workflows, and enterprise-grade technical documentation.
 
 ---
 
 ## 🛠️ Architecture & Tech Stack
 
-* **Version Control:** Git & GitHub (SSH authenticated)
-* **Automation / CI/CD:** GitHub Actions (`PSScriptAnalyzer` linting pipeline)
-* **Scripting Language:** PowerShell 7+
-* **Development Environment:** Windows 11 (PowerShell CLI) / iPadOS (Web Management)
+| Component | Technology | Implementation Details |
+| :--- | :--- | :--- |
+| **Version Control** | Git & GitHub | SSH-authenticated repository management |
+| **Automation & CI/CD** | GitHub Actions | Automated static code analysis via `PSScriptAnalyzer` |
+| **Scripting & Tooling** | PowerShell 7+ | Diagnostic scripting with structured error handling |
+| **Environment** | Hybrid Workflow | Windows 11 local CLI & iPadOS remote web management |
 
 ---
 
-## 📂 Repository Structure
+## 📂 Directory Structure
 
 ```text
 tech-docs-portfolio/
 ├── .github/
 │   └── workflows/
-│       └── powershell-ci.yml   # Automated code linting & validation
+│       └── powershell-ci.yml   # CI/CD pipeline for script linting & validation
 ├── scripts/
-│   └── System-Health-Check.ps1 # System telemetry & health diagnostic tool
-└── README.md                   # Repository documentation
+│   └── System-Health-Check.ps1 # Real-time telemetry & diagnostic script
+└── README.md                   # Enterprise portfolio documentation
