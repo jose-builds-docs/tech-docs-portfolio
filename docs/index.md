@@ -1,4 +1,4 @@
-# 📚 Technical Documentation & Asset Library
+# 📚 Enterprise Technical Documentation Catalog
 
 <p align="left">
   <img src="https://img.shields.io/badge/Docs-as--Code-blue?style=for-the-badge&logo=markdown&logoColor=white" alt="Docs as Code" />
@@ -6,65 +6,29 @@
   <img src="https://img.shields.io/badge/Maintainer-Jose%20Moran-0078D4?style=for-the-badge&logo=github&logoColor=white" alt="Owner" />
 </p>
 
-Welcome to the central knowledge base for **`tech-docs-portfolio`**. This interactive catalog provides direct access to code assets, operational runbooks, visual media, and CI/CD quality assurance specifications.
+Welcome to the central knowledge base for **`tech-docs-portfolio`**. This catalog provides direct access to all active scripts, workflow configurations, and architectural specifications stored in this repository.
 
-> 💡 **Docs-as-Code Engine:** Every asset in this repository is version-controlled, modular, and automatically linted via GitHub Actions.
+> 💡 **Docs-as-Code Engine:** All repository documentation is version-controlled, modular, and automatically validated via GitHub Actions.
 
 ---
 
-## 🗂️ Active Repository Asset Catalog
+## 🗂️ Complete Repository Directory Manifest
 
-| Category | Resource Name | Target File / Location | Tech Stack | Quick Action |
+| Category | File Name | Path | Tech Stack | Direct Access |
 | :--- | :--- | :--- | :--- | :---: |
-| **⚡ Automation** | System Health Check | [`scripts/System-Health-Check.ps1`](../scripts/System-Health-Check.ps1) | PowerShell 7+ | [⚡ Run Script](../scripts/System-Health-Check.ps1) |
-| **⚙️ DevOps / CI** | PowerShell Linter Pipeline | [`.github/workflows/powershell-ci.yml`](../.github/workflows/powershell-ci.yml) | GitHub Actions | [⚙️ View Workflow](../.github/workflows/powershell-ci.yml) |
-| **🖼️ Media & Visuals** | Terminal & Artifact Screenshots | [`assets/screenshots/`](../assets/screenshots/) | PNG / Images | [🖼️ Browse Media](../assets/screenshots/) |
-| **📖 Governance** | Central Technical Catalog | [`docs/index.md`](./index.md) | Markdown | [📖 Current View](./index.md) |
-| **🚀 Portfolio Front** | Master Repository Overview | [`README.md`](../README.md) | Markdown | [🚀 View Landing](../README.md) |
+| **⚡ Automation** | System Health Check | `scripts/System-Health-Check.ps1` | PowerShell 7+ | [View Script](../scripts/System-Health-Check.ps1) |
+| **⚙️ DevOps / CI** | PowerShell Linter Pipeline | `.github/workflows/powershell-ci.yml` | GitHub Actions | [View Workflow](../.github/workflows/powershell-ci.yml) |
+| **🏗️ Architecture** | Architecture Diagram Spec | `assets/architecture-diagram.md` | Mermaid / Spec | [View Diagram](../assets/architecture-diagram.md) |
+| **🚀 Portfolio Front** | Master Repository Landing | `README.md` | Markdown | [View Landing](../README.md) |
+| **📖 Governance** | Central Technical Catalog | `docs/index.md` | Markdown | [View Index](./index.md) |
 
 ---
 
-## 📂 Visual Directory Map
+## 🤝 Maintenance Metadata
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛠️ Automation & Scripts</h3>
-      <ul>
-        <li><b><a href="../scripts/System-Health-Check.ps1">System-Health-Check.ps1</a></b><br>
-        <i>Real-time system diagnostics & telemetry tool.</i></li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚙️ CI/CD & Pipeline Specs</h3>
-      <ul>
-        <li><b><a href="../.github/workflows/powershell-ci.yml">powershell-ci.yml</a></b><br>
-        <i>Automated script linting via PSScriptAnalyzer.</i></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🖼️ Media Assets & Artifacts</h3>
-      <ul>
-        <li><b><a href="../assets/screenshots/">/assets/screenshots/</a></b><br>
-        <i>Terminal execution previews & health check captures.</i></li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📚 Documentation & Guides</h3>
-      <ul>
-        <li><b><a href="../README.md">README.md</a></b> — Main Repository Landing</li>
-        <li><b><a href="./index.md">docs/index.md</a></b> — Central Knowledge Base</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
----
-
-## 🤝 Repository Maintenance Matrix
-
-* **Maintainer:** Jose Moran ([@jose-builds-docs](https://github.com/jose-builds-docs))
-* **Environment:** Hybrid Workflow (Windows 11 CLI & iPadOS Web)
-* **Last Catalog Sync:** October 2026
+| Property | Value |
+| :--- | :--- |
+| **Maintainer** | Jose Moran ([@jose-builds-docs](https://github.com/jose-builds-docs)) |
+| **Environment** | Hybrid Workflow (Windows 11 CLI & iPadOS Web) |
+| **Documentation Model** | Docs-as-Code (Markdown + Git Version Control) |
+| **Last Synchronized** | October 2026 |
