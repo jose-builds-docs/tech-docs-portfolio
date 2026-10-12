@@ -16,4 +16,3 @@ graph TD
     style Entra fill:#bbf,stroke:#333,stroke-width:2px
     style VPN fill:#bfb,stroke:#333,stroke-width:2px
     style DC fill:#ff9,stroke:#333,stroke-width:2px
-```
